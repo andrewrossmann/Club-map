@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a9a765e458445c1c2b7c5af14c3a6776 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a9a765e458445c1c2b7c5af14c3a6776" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a9a765e458445c1c2b7c5af14c3a6776 = L.map(
+                "map_a9a765e458445c1c2b7c5af14c3a6776",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8d77715b359c52eba19fc6628bbb2cae = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+            var marker_50ffc30962c3ed7c90018b1cc191c805 = L.marker(
+                [40.6097, -74.0862],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_5cffb5a36d46e0f5e1055f012e0f3aa7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0688db89483abd94ab32c1c47ad2646c = $(`<div id="html_0688db89483abd94ab32c1c47ad2646c" style="width: 100.0%; height: 100.0%;">The Belvedere Club - Staten Island</div>`)[0];
+            popup_5cffb5a36d46e0f5e1055f012e0f3aa7.setContent(html_0688db89483abd94ab32c1c47ad2646c);
+        
+
+        marker_50ffc30962c3ed7c90018b1cc191c805.bindPopup(popup_5cffb5a36d46e0f5e1055f012e0f3aa7)
+        ;
+
+        
+    
+    
+            var marker_851c8b5e67794de98c3567f8a67059bd = L.marker(
+                [40.7399, -73.9908],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_3aa94fa9880947194dd68c63bb49b628 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_002ce2ec7e6c701a88cae7db28ca2ef1 = $(`<div id="html_002ce2ec7e6c701a88cae7db28ca2ef1" style="width: 100.0%; height: 100.0%;">Columbia University Club of New York</div>`)[0];
+            popup_3aa94fa9880947194dd68c63bb49b628.setContent(html_002ce2ec7e6c701a88cae7db28ca2ef1);
+        
+
+        marker_851c8b5e67794de98c3567f8a67059bd.bindPopup(popup_3aa94fa9880947194dd68c63bb49b628)
+        ;
+
+        
+    
+    
+            var marker_28b5f7d5dd7f08a87c8da99ed619fb97 = L.marker(
+                [40.8086, -73.9644],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_c4b8d68bdf8994f141f7119fbea2abf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92818c94fc24e915a07773ea71e4e5ce = $(`<div id="html_92818c94fc24e915a07773ea71e4e5ce" style="width: 100.0%; height: 100.0%;">Columbia University Faculty House</div>`)[0];
+            popup_c4b8d68bdf8994f141f7119fbea2abf6.setContent(html_92818c94fc24e915a07773ea71e4e5ce);
+        
+
+        marker_28b5f7d5dd7f08a87c8da99ed619fb97.bindPopup(popup_c4b8d68bdf8994f141f7119fbea2abf6)
+        ;
+
+        
+    
+    
+            var marker_ba77f88998537ecca0349f52e5395aed = L.marker(
+                [40.7461, -73.9867],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_6329b43ad627e0397f2c21f0cb297983 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c88207db87ce2480e9b0b1d11fffee01 = $(`<div id="html_c88207db87ce2480e9b0b1d11fffee01" style="width: 100.0%; height: 100.0%;">Cornell Club</div>`)[0];
+            popup_6329b43ad627e0397f2c21f0cb297983.setContent(html_c88207db87ce2480e9b0b1d11fffee01);
+        
+
+        marker_ba77f88998537ecca0349f52e5395aed.bindPopup(popup_6329b43ad627e0397f2c21f0cb297983)
+        ;
+
+        
+    
+    
+            var marker_aa071f046b60511ae1d6dbfe691065f4 = L.marker(
+                [40.7537, -73.9792],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_34067596167d33073b0651f2d2d7b345 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef5116dbbb3891129fc76646e1c3f677 = $(`<div id="html_ef5116dbbb3891129fc76646e1c3f677" style="width: 100.0%; height: 100.0%;">The Dartmouth Club of New York</div>`)[0];
+            popup_34067596167d33073b0651f2d2d7b345.setContent(html_ef5116dbbb3891129fc76646e1c3f677);
+        
+
+        marker_aa071f046b60511ae1d6dbfe691065f4.bindPopup(popup_34067596167d33073b0651f2d2d7b345)
+        ;
+
+        
+    
+    
+            var marker_4c47d6bfcd1ffa51a7476c8c70c3f47d = L.marker(
+                [40.7589, -73.9712],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_01aa3af0227d14006862dbe9625697dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f14d43ad0058aed37984b222bf405fe = $(`<div id="html_2f14d43ad0058aed37984b222bf405fe" style="width: 100.0%; height: 100.0%;">The Delta Kappa Epsilon Club of New York</div>`)[0];
+            popup_01aa3af0227d14006862dbe9625697dc.setContent(html_2f14d43ad0058aed37984b222bf405fe);
+        
+
+        marker_4c47d6bfcd1ffa51a7476c8c70c3f47d.bindPopup(popup_01aa3af0227d14006862dbe9625697dc)
+        ;
+
+        
+    
+    
+            var marker_f074e3957c75bac91c189d5d1624ca98 = L.marker(
+                [40.7073, -74.0081],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_6c9bc4d046178c6fe3efed12f7d7c65c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c859a0f883232693ed872d1d6afffd18 = $(`<div id="html_c859a0f883232693ed872d1d6afffd18" style="width: 100.0%; height: 100.0%;">The Down Town Association</div>`)[0];
+            popup_6c9bc4d046178c6fe3efed12f7d7c65c.setContent(html_c859a0f883232693ed872d1d6afffd18);
+        
+
+        marker_f074e3957c75bac91c189d5d1624ca98.bindPopup(popup_6c9bc4d046178c6fe3efed12f7d7c65c)
+        ;
+
+        
+    
+    
+            var marker_f94de9634eb45bb477812b3a833f3343 = L.marker(
+                [40.7519, -73.9802],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_ba10eeeec686c3830dbf253d84fc5638 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65f7aa7e860ec986c9f471487e9cca72 = $(`<div id="html_65f7aa7e860ec986c9f471487e9cca72" style="width: 100.0%; height: 100.0%;">Harvard Club of New York</div>`)[0];
+            popup_ba10eeeec686c3830dbf253d84fc5638.setContent(html_65f7aa7e860ec986c9f471487e9cca72);
+        
+
+        marker_f94de9634eb45bb477812b3a833f3343.bindPopup(popup_ba10eeeec686c3830dbf253d84fc5638)
+        ;
+
+        
+    
+    
+            var marker_a6aeb49cfcb6b1e655a9c104739e06a7 = L.marker(
+                [40.7583, -73.9789],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_c74e14451294ed49c044e5085fef1335 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca15d9e776a88c565659d85788cca4bd = $(`<div id="html_ca15d9e776a88c565659d85788cca4bd" style="width: 100.0%; height: 100.0%;">The Lotos Club</div>`)[0];
+            popup_c74e14451294ed49c044e5085fef1335.setContent(html_ca15d9e776a88c565659d85788cca4bd);
+        
+
+        marker_a6aeb49cfcb6b1e655a9c104739e06a7.bindPopup(popup_c74e14451294ed49c044e5085fef1335)
+        ;
+
+        
+    
+    
+            var marker_19210e319573d11be1b8cfbe8f8dd474 = L.marker(
+                [40.7626, -73.9709],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_4246da6e4c23dfa2952dccb037c25d94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2dd6eb359660487317be403b2539174 = $(`<div id="html_f2dd6eb359660487317be403b2539174" style="width: 100.0%; height: 100.0%;">Metropolitan Club</div>`)[0];
+            popup_4246da6e4c23dfa2952dccb037c25d94.setContent(html_f2dd6eb359660487317be403b2539174);
+        
+
+        marker_19210e319573d11be1b8cfbe8f8dd474.bindPopup(popup_4246da6e4c23dfa2952dccb037c25d94)
+        ;
+
+        
+    
+    
+            var marker_064aa6a1b8c32a15d37b9364cff88e8c = L.marker(
+                [40.7513, -73.9749],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_814c62a0c91131b3a48e4df6d905ee92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbd612eb1230d4fc83c6670a1ec5ca9f = $(`<div id="html_dbd612eb1230d4fc83c6670a1ec5ca9f" style="width: 100.0%; height: 100.0%;">New York Athletic Club City House</div>`)[0];
+            popup_814c62a0c91131b3a48e4df6d905ee92.setContent(html_dbd612eb1230d4fc83c6670a1ec5ca9f);
+        
+
+        marker_064aa6a1b8c32a15d37b9364cff88e8c.bindPopup(popup_814c62a0c91131b3a48e4df6d905ee92)
+        ;
+
+        
+    
+    
+            var marker_1c1045b6b4b05489327c6932c43f454d = L.marker(
+                [40.7685, -73.9824],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_cf012ba5a44ed0cc0802fdd7d459799f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8e4f107daf00ba008f5581781b9888e = $(`<div id="html_e8e4f107daf00ba008f5581781b9888e" style="width: 100.0%; height: 100.0%;">The Players</div>`)[0];
+            popup_cf012ba5a44ed0cc0802fdd7d459799f.setContent(html_e8e4f107daf00ba008f5581781b9888e);
+        
+
+        marker_1c1045b6b4b05489327c6932c43f454d.bindPopup(popup_cf012ba5a44ed0cc0802fdd7d459799f)
+        ;
+
+        
+    
+    
+            var marker_a7f7e5a185f9b466fab5ec0a60ee666c = L.marker(
+                [40.7441, -73.9931],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_5558f495d4d6f7e0270805ab5da8071a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d296864f2cc5b4498342af8b2065002 = $(`<div id="html_2d296864f2cc5b4498342af8b2065002" style="width: 100.0%; height: 100.0%;">Penn Club</div>`)[0];
+            popup_5558f495d4d6f7e0270805ab5da8071a.setContent(html_2d296864f2cc5b4498342af8b2065002);
+        
+
+        marker_a7f7e5a185f9b466fab5ec0a60ee666c.bindPopup(popup_5558f495d4d6f7e0270805ab5da8071a)
+        ;
+
+        
+    
+    
+            var marker_c019aa3a515d9e6b92c06f416290a054 = L.marker(
+                [40.7594, -73.9748],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_3988b0711c3f167870a587800f20059d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e4383a5b44345d0848d406520020de7 = $(`<div id="html_8e4383a5b44345d0848d406520020de7" style="width: 100.0%; height: 100.0%;">Social Register Association</div>`)[0];
+            popup_3988b0711c3f167870a587800f20059d.setContent(html_8e4383a5b44345d0848d406520020de7);
+        
+
+        marker_c019aa3a515d9e6b92c06f416290a054.bindPopup(popup_3988b0711c3f167870a587800f20059d)
+        ;
+
+        
+    
+    
+            var marker_c881156e88e42d2b677073890fd2a7ad = L.marker(
+                [40.7589, -73.975],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_58b42320d5172395f22dc49cbe55fad5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_874509889be945670c55362348df7bc8 = $(`<div id="html_874509889be945670c55362348df7bc8" style="width: 100.0%; height: 100.0%;">Squadron A Association</div>`)[0];
+            popup_58b42320d5172395f22dc49cbe55fad5.setContent(html_874509889be945670c55362348df7bc8);
+        
+
+        marker_c881156e88e42d2b677073890fd2a7ad.bindPopup(popup_58b42320d5172395f22dc49cbe55fad5)
+        ;
+
+        
+    
+    
+            var marker_365ba730cab6e2333a5477f5b557f470 = L.marker(
+                [40.749, -73.9939],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_d4d000f391d359f9b96a3c754a5bde6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8ff88d72128fdbe23cedbff0c83f042 = $(`<div id="html_c8ff88d72128fdbe23cedbff0c83f042" style="width: 100.0%; height: 100.0%;">The Coffee House Club</div>`)[0];
+            popup_d4d000f391d359f9b96a3c754a5bde6c.setContent(html_c8ff88d72128fdbe23cedbff0c83f042);
+        
+
+        marker_365ba730cab6e2333a5477f5b557f470.bindPopup(popup_d4d000f391d359f9b96a3c754a5bde6c)
+        ;
+
+        
+    
+    
+            var marker_771b6333897fef334d57c406adbec66f = L.marker(
+                [40.7416, -73.9928],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_ce0d6702fc27ea9078d41e8bcd935bad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_622e7f432d065eae7cec413c489794d9 = $(`<div id="html_622e7f432d065eae7cec413c489794d9" style="width: 100.0%; height: 100.0%;">The Virginia Club of New York</div>`)[0];
+            popup_ce0d6702fc27ea9078d41e8bcd935bad.setContent(html_622e7f432d065eae7cec413c489794d9);
+        
+
+        marker_771b6333897fef334d57c406adbec66f.bindPopup(popup_ce0d6702fc27ea9078d41e8bcd935bad)
+        ;
+
+        
+    
+    
+            var marker_a83bff76f7351d0dc8487872419879fc = L.marker(
+                [40.7485, -73.9819],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_336200a2265b6569474032b4830b773c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bccbbc344d78d50f461f8def8f7b82c6 = $(`<div id="html_bccbbc344d78d50f461f8def8f7b82c6" style="width: 100.0%; height: 100.0%;">Yale Club of New York City</div>`)[0];
+            popup_336200a2265b6569474032b4830b773c.setContent(html_bccbbc344d78d50f461f8def8f7b82c6);
+        
+
+        marker_a83bff76f7351d0dc8487872419879fc.bindPopup(popup_336200a2265b6569474032b4830b773c)
+        ;
+
+        
+    
+    
+            var marker_144f17579580b204c854cfd7c4d2c503 = L.marker(
+                [40.6722, -73.9811],
+                {}
+            ).addTo(map_a9a765e458445c1c2b7c5af14c3a6776);
+        
+    
+        var popup_6746473145574e165e3b41de74c443b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9290a6401be3ce0fa71ab49335e9e9c = $(`<div id="html_a9290a6401be3ce0fa71ab49335e9e9c" style="width: 100.0%; height: 100.0%;">The Montauk Club</div>`)[0];
+            popup_6746473145574e165e3b41de74c443b3.setContent(html_a9290a6401be3ce0fa71ab49335e9e9c);
+        
+
+        marker_144f17579580b204c854cfd7c4d2c503.bindPopup(popup_6746473145574e165e3b41de74c443b3)
+        ;
+
+        
+    
+</script>
+</html>
